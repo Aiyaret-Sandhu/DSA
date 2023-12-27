@@ -20,7 +20,14 @@ public class _16_NHeadTail {
         System.out.println(heads);
         System.out.println(tails);
 
-        int d = heads.tally() - tails.tally();
-        System.out.println("delta: " + Math.abs(d));
+        // int d = heads.tally() - tails.tally();
+        // System.out.println("delta: " + Math.abs(d));
+
+        if (heads.tally() == tails.tally()) System.out.println("Tie");
+        else System.out.println(max(heads,tails) + " wins!");
+    }
+
+    public static _16_Counter max(_16_Counter x, _16_Counter y) {
+        if (x.tally() > y.tally()) return x; else return y;
     }
 }
