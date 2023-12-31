@@ -9,6 +9,7 @@ public class _19_Is_String_Sorted {
         String str = input.nextLine();
         String[] array = toStringArray(str);
         System.out.println(" The array is sorted ! : -> " + isSorted(array));
+        input.close();
 
     }
 
