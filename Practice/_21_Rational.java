@@ -1,8 +1,8 @@
 package Practice;
 
-import edu.princeton.cs.algs4.In;
+// import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class _21_Rational {
     
