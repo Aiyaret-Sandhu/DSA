@@ -1,6 +1,6 @@
 package Practice;
 
-import edu.princeton.cs.algs4.StdOut;
+// import edu.princeton.cs.algs4.StdOut;
 
 public class _10_Exercises1 {
     public static void main(String[] args) {
