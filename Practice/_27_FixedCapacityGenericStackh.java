@@ -2,11 +2,11 @@ package Practice;
 
 import edu.princeton.cs.algs4.StdIn;
 
-public class _27_FixedCapacityGenericStack<Item> {
+public class _27_FixedCapacityGenericStackh<Item> {
     private Item[] a;
     private int N;
 
-    public _27_FixedCapacityGenericStack(int capacity) {
+    public _27_FixedCapacityGenericStackh(int capacity) {
         this.a = (Item[]) new Object[capacity];
         this.N = 0;
     }
@@ -20,7 +20,7 @@ public class _27_FixedCapacityGenericStack<Item> {
     public int size() { return N; }
 
     public static void main(String[] args) {
-        _27_FixedCapacityGenericStack<Double> st = new _27_FixedCapacityGenericStack<Double>(100);
+        _27_FixedCapacityGenericStackh<Double> st = new _27_FixedCapacityGenericStackh<Double>(100);
         while(!StdIn.isEmpty()) {
             Double item = StdIn.readDouble();
             if (item > 0.0) { st.push(item);}
