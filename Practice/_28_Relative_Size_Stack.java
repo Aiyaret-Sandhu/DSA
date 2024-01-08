@@ -29,6 +29,7 @@ public class _28_Relative_Size_Stack<Item> {
 
     public Item pop() { 
         Item item = a[--N];
+        a[N] = null;
         if(this.N > 0 && this.N == this.a.length) resize(this.a.length/2);
         return item;
     }
