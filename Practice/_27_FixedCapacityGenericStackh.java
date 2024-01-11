@@ -19,6 +19,8 @@ public class _27_FixedCapacityGenericStackh<Item> {
 
     public int size() { return N; }
 
+    public boolean isFull() { return N == this.a.length; }
+
     public static void main(String[] args) {
         _27_FixedCapacityGenericStackh<Double> st = new _27_FixedCapacityGenericStackh<Double>(100);
         while(!StdIn.isEmpty()) {
