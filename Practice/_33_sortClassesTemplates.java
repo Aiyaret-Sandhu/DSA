@@ -40,10 +40,7 @@ public class _33_sortClassesTemplates {
     }
 
     public static void main(String[] args) {
-        Float[] a = new Float[30];
-        for(int i = 0 ; i < 30 ; i++) {
-            a[i] = (float)(200 + StdRandom.uniform()*200);
-        }
+        String[] a = StdIn.readStrings();
         show(a);
         sort(a);
         System.out.println();
